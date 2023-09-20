@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hf-audio-course"
+version = "0.1.0"
+description = ""
+authors = ["The Nomadic Coder <me@prassanna.io>"]
+readme = "README.md"
+packages = [{include = "hf_audio_course"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+librosa = "^0.10.1"
+ipython = "^8.15.0"
+jupyter = "^1.0.0"
+matplotlib = "^3.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
